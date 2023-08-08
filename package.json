@@ -1,0 +1,28 @@
+{
+  "name": "hugevenn",
+  "version": "1.0.0",
+  "description": "hugevenn.com",
+  "main": "index.js",
+  "repository": "git@github.com:lkleuver/hugevenn.git",
+  "author": "Les Kleuver <les.kleuver@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "color2k": "^2.0.2",
+    "next": "^13.4.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.64.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.8",
+    "@types/react": "18.2.19",
+    "typescript": "5.1.6"
+  }
+}

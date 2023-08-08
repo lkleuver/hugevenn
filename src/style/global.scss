@@ -1,0 +1,125 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+
+main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+
+button {
+  border-radius: 6px;
+  border: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 6px 12px;
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.builder {
+  flex: 1;
+  display: flex;
+
+  nav {
+    flex: 0 0 30%;
+    background-color: #eee;
+    border-right: 1px solid #ccc;
+    padding: 32px;
+  }
+
+  article {
+    flex: 1 1 auto;
+    background-color: #fff;
+    position: relative;
+  }
+}
+
+.field {
+  margin-bottom: 16px;
+  label {
+    display: block;
+    font-weight: bold;
+  }
+}
+
+.entry {
+  margin-bottom: 8px;
+  display: flex;
+
+  .color {
+    width: 70px;
+  }
+
+  .cube {
+    border-radius: 3px;
+    margin: 0 4px;
+  }
+}
+
+
+.venn-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.home {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  background-color: peachpuff;
+
+  .intro {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+      text-align: center;
+    }
+    flex: 0 0 30%;
+    background-color: papayawhip;
+    border-radius: 36px;
+    padding: 32px;
+    max-height: 300px;
+
+
+    a {
+      display: block;
+      border-radius: 12px;
+      padding: 10px 16px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+}
