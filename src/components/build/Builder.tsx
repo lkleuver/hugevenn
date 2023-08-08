@@ -13,13 +13,16 @@ export function Builder() {
 
   const [state, setState] = React.useState<VennState>({
     title: "Hugevenn",
-    conclusion: "Smoothi",
+    conclusion: "Smoothie",
     entries: [
       {
         title: "Apple"
       },
       {
         title: "Banana"
+      },
+      {
+        title: "Pear"
       }
     ]
   });
