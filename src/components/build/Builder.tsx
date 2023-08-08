@@ -12,14 +12,14 @@ export function Builder() {
   const router = useRouter();
 
   const [state, setState] = React.useState<VennState>({
-    title: "My Venn Diagram",
-    conclusion: "Cool stuff",
+    title: "Hugevenn",
+    conclusion: "Smoothi",
     entries: [
       {
-        title: "Entry 1"
+        title: "Apple"
       },
       {
-        title: "Entry 2"
+        title: "Banana"
       }
     ]
   });
